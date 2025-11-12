@@ -1,0 +1,10 @@
+^C:\DESKTOP\PROGRAMMING\C++\PROGRAMING_C++\GOOGLE_BENCHMARK\IIR_PROJECT_2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project_2 -BC:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project_2/build --check-stamp-file C:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project_2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

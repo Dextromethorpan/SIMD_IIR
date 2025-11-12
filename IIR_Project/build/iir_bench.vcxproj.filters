@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Desktop\Programming\C++\Programing_C++\Google_Benchmark\IIR_Project\iir_bench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Desktop\Programming\C++\Programing_C++\Google_Benchmark\IIR_Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B894A6BB-859C-3FE1-8D0A-78104F978FC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\DESKTOP\PROGRAMMING\C++\PROGRAMING_C++\GOOGLE_BENCHMARK\IIR_PROJECT\BUILD\CMAKEFILES\AB7DDB7AD328308B8E584A232E99EAF9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project -BC:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Desktop/Programming/C++/Programing_C++/Google_Benchmark/IIR_Project/build/iir_simd_bench.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
